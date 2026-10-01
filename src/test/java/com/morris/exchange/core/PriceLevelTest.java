@@ -51,6 +51,6 @@ public class PriceLevelTest {
         level.removeOrder(o1);
         assertTrue(level.isEmpty());
         assertEquals(0,level.getTotalQuantity());
-        
+
     }
 }
